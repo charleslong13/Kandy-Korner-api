@@ -1,0 +1,113 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "address": "101 real street lane",
+            "squareFootage": 2000,
+            "handicapAccessible": false,
+            "name": "Kandy Korner East"  
+        },
+        {
+            "id": 2,
+            "address": "502 fake circle",
+            "squareFootage": 3000,
+            "handicapAccessible": true, 
+            "name": "Kandy Korner West"
+        }
+
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "locationId": 1,
+            "name": "John Doe"
+        },
+        {
+            "id": 2,
+            "locationId": 2,
+            "name": "Jane Smith"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Joe Blow",
+            "email": "joe@example.com",
+            "birthday": "03/16/84"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "snickers",
+            "productTypeId": 1,
+            "price": 1.00
+        },
+        {
+            "id": 2,
+            "name": "sour patch kids",
+            "productTypeId": 2,
+            "price": 1.25 
+        },
+        {
+            "id": 3,
+            "name": "payday",
+            "productTypeId": 3,
+            "price": 1.10
+        },
+        {
+            "id": 4,
+            "name": "werthers",
+            "productTypeId": 4,
+            "price": 1
+        },
+        {
+            "id": 5,
+            "name": "Gummy Worms",
+            "productTypeId": 3,
+            "price": 1
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1,
+            "productLocationsId": 1,
+            "timestamp": "2021-05-10",
+            "quantity": 5
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "category": "chocolate"
+        },
+        {
+            "id": 2,
+            "category": "sour"
+        },
+        {
+            "id": 3,
+            "category": "gummy"
+        },
+        {
+            "id": 4,
+            "category": "hard candy"
+        }
+    ],
+    "productLocations": [
+        {
+            "id": 1,
+            "locationId": 1,
+            "productId": 1,
+            "quantity": 25 
+        },
+        {
+            "id": 2,
+            "locationId": 2,
+            "productId": 2,
+            "quantity": 20 
+        }
+    ]
+}
